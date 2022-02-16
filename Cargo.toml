@@ -1,0 +1,11 @@
+[package]
+name = "test_assists_not_working"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+test_assists_in_this_crate_dont_work = { path = "libs/core", package = "core" }
+
+[workspace]
