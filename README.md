@@ -7,3 +7,6 @@ As far as I am concerned, this bug is related to subcrate being named `core` - p
 ## Temporary fix
 
 Test assists work again if we rename culprit package from `core` to something else.
+
+---
+https://github.com/rust-analyzer/rust-analyzer/issues/11483
