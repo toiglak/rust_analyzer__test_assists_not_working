@@ -1,5 +1,5 @@
 [package]
-name = "core"
+name = "core" # if you change this string to something else (eg. "core_"), test assists will work again
 version = "0.1.0"
 edition = "2021"
 
