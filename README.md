@@ -1,12 +1,6 @@
-# rust_analyzer bug report: `test_assists_not_working`
+This repository shows a minimally reproducible example of broken test assist in rust analyzer.
 
-This repository shows minimum reproducible example of test assists in rust analyzer breaking.
-
-As far as I am concerned, this bug is related to subcrate being named `core` - possibly overlapping with `std` name?
-
-## Temporary fix
-
-Test assists work again if we rename culprit package from `core` to something else.
+As far as I can tell, this bug is related to the subcrate being named `core`. Maybe it overlaps with the `std` name?
 
 ---
-https://github.com/rust-analyzer/rust-analyzer/issues/11483
+[issue#11483](https://github.com/rust-analyzer/rust-analyzer/issues/11483)
